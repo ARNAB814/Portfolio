@@ -56,80 +56,76 @@ const metadata = {
   <!-- Features Widget *************** -->
 
   <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
-    items={[
-      {
-        title: 'Astro + Tailwind CSS Integration',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
+  // id="features"
+  // tagline=""
+  title="Technical Skills"
+  subtitle="Skills Developed through Academic and Work Experiences"
+  items={[
+    {
+      title: 'Programming Languages',
+      description: 'Proficient in Python, Java, C++, JavaScript. Familiar with C, C#',
+      icon: 'tabler:code',
+    },
+    {
+      title: 'Web Development',
+      description: 'Proficient in HTML, CSS, Astro, Node.js. Familiar with React and Flutter.',
+      icon: 'tabler:browser',
+    },
+    {
+      title: 'Embedded Systems',
+      description: 'Experience with Arduino  for hardware development and TinkerCad for 3D design and printing. Used Pandas for data manipulation',
+      icon: 'tabler:rocket',
+    },
+    {
+      title: 'Game Development',
+      description: 'Utilized Unreal Engine and Unity for game development projects. Also used C++ with SFML framework',
+      icon: 'tabler:arrows-right-left',
+    },
+    {
+      title: 'Operating Systems',
+      description: 'Proficient in Linux and Windows for system administration and development.',
+      icon: 'tabler:bulb',
+    },
+    {
+      title: 'Image Editing',
+      description: 'Proficient in Photoshop and Luminar AI for creative design work. Worked with DaVinci for video editing',
+      icon: 'tabler:code',
+    },
+  ]}
+/>
+
+
 
   <!-- Content Widget **************** -->
 
   <Content
     isReversed
-    title="Experience"
+    title="Work Experience"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Simulation Enhancement',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Conducted simulations on Unreal Engine to enhance edge computing efficiency.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Highlighted Areas',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'Focused on Ems vehicles, lane allocation, variable speed, and v2v communication.',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'Edge Computing',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Implemented edge computing solutions to optimize data processing and enhance real-time decision-making capabilities for autonomous vehicles..',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.unsplash.com/photo-1501514367484-a5804478bf64?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXV0b25vbW91cyUyMHZlaGljbGV8ZW58MHx8MHx8fDA%3D',
       alt: 'Colorful Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-       Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Autonomous Vehicle Researcher</h3>
+      Worked under faculty supervision for 8 months as a research assistant. Primary goal was to increase efficieny and safety of autonomous vehicles in real world scenarios.
     </Fragment>
 
     <Fragment slot="bg">
@@ -163,16 +159,15 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      src: 'https://images.unsplash.com/photo-1562618817-253b06cf2b6e?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Blueprint Image',
     }}
   >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Resident Assistant</h3>
+    Worked under faculty supervision for 8 months as a research assistant. Primary goal was to increase efficieny and safety of autonomous vehicles in real world scenarios.
+  </Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
 
   <!-- Content Widget **************** -->
 
