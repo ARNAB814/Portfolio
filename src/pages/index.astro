@@ -11,6 +11,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { sequence } from 'astro:middleware';
 
 const metadata = {
   title: "Arunav's Portfolio",
@@ -250,15 +251,15 @@ const metadata = {
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Heros',
+        title: "Can't Stop",
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
+          "A digital version of the classic board game remade in Java Swing. Avaialble on my Github",
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
+        title: "Knight's Tour",
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
+          "Solve the famous math problem using Knight's move sequence. Avaialble on my Github" ,
         icon: 'flat-color-icons:approval',
       },
       {
@@ -305,10 +306,8 @@ const metadata = {
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
+    title="Find out more content in the Blog section"
+    information={`I like to click pictures in my free time. Here are some of my pictures in the blog. Enjoy!
                 `}
   />
 
